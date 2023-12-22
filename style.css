@@ -1,0 +1,25 @@
+body{background:
+     cornflowerblue ;}
+.heading
+{text-align: center;
+    text-transform: capitalize;background-color: #9d00ffa6}
+#hello{text-align: left}
+h3{text-transform: capitalize ;
+     text-decoration: underline}
+p{text-transform: capitalize ;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    line-height: 1.4em;
+    letter-spacing: 2px;}
+table{border: 1px solid black;
+    border-radius: 10px}
+li>a{background-color:#32cdcde3;
+    color:#0014ff;
+    font-family: sans-serif
+    ;font-size: 30px 
+    ;text-transform: capitalize }
+h1~p{background-color: rgba(0, 255, 242, 0.596) 
+    ;font-family: sans-serif 
+    ;word-spacing: 5px  }
+input[type="file"]{background:cornsilk}
