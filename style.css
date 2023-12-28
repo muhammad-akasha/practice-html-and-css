@@ -1,9 +1,11 @@
 body{background:
-     cornflowerblue ;}
+     cornflowerblue ; transition: all}
 .heading
-{text-align: center;
-    text-transform: capitalize;background-color: #9d00ffa6}
+{text-align: center;transition: all;
+    text-transform: capitalize;background-color: #9d00ffa6;color:rgb(124, 10, 63);text-shadow: 1px 1px 16px rgb(196, 36, 156)}
 #hello{text-align: left}
+.heading2{text-align: center;transition: all;
+    text-transform: capitalize;background-color: #9d00ffa6;color:rgb(124, 10, 63);text-shadow: 1px 1px 16px rgb(196, 36, 156)}
 h3{text-transform: capitalize ;
      text-decoration: underline}
 p{text-transform: capitalize ;
@@ -23,3 +25,12 @@ h1~p{background-color: rgba(0, 255, 242, 0.596)
     ;font-family: sans-serif 
     ;word-spacing: 5px  }
 input[type="file"]{background:cornsilk}
+a{transition: all;transition-duration: 1s}
+    a:hover {
+    color: rgb(11, 218, 255);
+    text-decoration: underline;background: darkblue;transition: ease-in}
+   .heading:hover{transition: all;background: darkorange;font-size: 35px; font-family: Georgia, 'Times New Roman', Times, serif;color:lightseagreen ;transition-duration: 1s}
+   table:hover{transition: all;transition: ease-in-out;}
+   input:hover{background:  yellow;color: blue;transition-duration: 1s}
+   p:hover{background: rgb(16, 144, 148);color:black;}
+   .heading2:hover{background: pink;color: red;font-size: 29px;transition-duration: 2s;}
